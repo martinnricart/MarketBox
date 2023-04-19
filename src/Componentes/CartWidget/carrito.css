@@ -1,0 +1,8 @@
+.carrito{
+    position: absolute;
+    right: 0;
+  }
+  
+  .cantidadCarrito{
+    color: rgb(255, 255, 255);
+  }
