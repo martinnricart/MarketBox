@@ -1,0 +1,73 @@
+[   
+    {   
+        "id":1,
+        "nombre": "Taladro Fierce",    
+        "precio": 13.999,
+        "categoria": "Herramientas",
+        "imagen":"../assets/taladrofierce.png",
+        "stock": 10,
+        "descripcion":"Taladro Percutor Eléctrico Fierce Ftp601p 600 W 3000 Rpm"
+},
+{
+        "id":2,
+        "nombre": "Taladro Philco",    
+        "precio": 11.999,
+        "categoria": "Herramientas",
+        "imagen":"../assets/taladrophilco.png",
+        "stock": 10,
+        "descripcion":"Taladro percutor atornillador eléctrico de 13mm Philco TP711 710W + accesorios 220V"
+},{
+
+        "id":3,
+        "nombre": "Kit Destornillador",    
+        "precio": 5.700,
+        "categoria": "Herramientas",
+        "imagen":"../assets/kitdestornillador.png",
+        "stock": 15,
+        "descripcion":"Juego Set Kit Destornilladores Celulares, Tablet, Electronica"
+
+},{
+        "id":4,
+        "nombre": "Set de Herramientas Manuales",    
+        "precio": 29.200,
+        "categoria": "Herramientas",
+        "imagen":"../assets/setherramientas.png",
+        "stock": 20,
+        "descripcion":"Juego Set Herramientas Manuales Philco Sh78 74 Piezas Maleta"
+    
+},{
+        "id":5,
+        "nombre": "Sierra Caladora",    
+        "precio": 17.999,
+        "categoria": "Herramientas",
+        "imagen":"../assets/sierraelectrica.png",
+        "stock": 5,
+        "descripcion":"Sierra Caladora Eléctrica 800w Total Tools"
+},{ 
+
+        "id":6,
+        "nombre": "Sierra Caladora Profesional",    
+        "precio": 25.190,
+        "categoria": "Herramientas",
+        "imagen":"../assets/sierraprofesional.png",
+        "stock": 10,
+        "descripcion":"Sierra caladora profesional Bosch Professional GST 650 450W 220V hojas"
+
+},{
+        "id":7,
+        "nombre": "Hidrolavadora",    
+        "precio": 29.999,
+        "categoria": "Herramientas",
+        "imagen":"../assets/hidrolavadora.png",
+        "stock": 35,
+        "descripcion":"Hidrolavadora Alta Presión Nexus 1400w 110/b Autostop"
+},{
+        "id":8,
+        "nombre": "Amoladora angular",    
+        "precio": 11.200,
+        "categoria": "Herramientas",
+        "imagen":"../assets/amoladora.png",
+        "stock": 8,
+        "descripcion":"Amoladora angular Black+Decker G720N naranja 820 W 220 V Llaves"
+}
+]

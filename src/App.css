@@ -1,18 +1,21 @@
 .App {
   text-align: center;
   font-family: 'Caveat', cursive;
-  font-size: x-large;
+   font-size: x-large;
 }
 
 .container-fluid{
   position: relative;
    bottom: 11px;
+   font-family: 'Caveat', cursive;
+   font-size: x-large;
 }
 
 .nav-link{
   color: white;
   font-family: 'Caveat', cursive;
   font-size: x-large;
+  
   
 }
 
@@ -22,15 +25,24 @@
 
 .navbar-brand{
   color: rgb(253, 215, 0);
+  font-family: 'Caveat', cursive;
+  font-size: x-large;
 }
 
 .navbar-brand:hover{
   color: rgb(253, 215, 0); ;
+  
 }
 
 .navbar-nav{
   position: relative;
   left: 490px;
+  font-family: 'Caveat', cursive;
+  font-size: x-large;
   
+}
+
+.bienvenida{
+  text-shadow: 2px 2px rgb(253, 215, 0);
 }
 

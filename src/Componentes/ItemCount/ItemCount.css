@@ -1,0 +1,24 @@
+.contador .controles .btnSumar{
+    position: relative;
+   left: 30px;
+   top: 29px;
+   border-color: rgb(0, 0, 0);
+    background-color:rgb(255, 244, 180);
+    
+}
+
+.contador .controles .btnRestar{
+    position:relative;
+     right: 30px;
+     bottom: 48px;
+     border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 244, 180);
+    
+ }
+
+.btnAgregar{
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 244, 180);
+    color:rgb(5, 5, 5);
+    
+ }
