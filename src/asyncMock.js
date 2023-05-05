@@ -1,11 +1,11 @@
-import herramientas from './herramientas.json'
+import productos from './productos.json'
 import React, { useEffect, useState } from 'react'
 
 const Galeria = () => {
-    const [herramientas] = useState([])
+    const [productos] = useState([])
 
     useEffect(() => {
-        fetch(herramientas)
+        fetch(productos)
             .then(response => response.json())
             .catch(error => console.error(error));
     }
@@ -13,7 +13,7 @@ const Galeria = () => {
     
     return(
         <div>
-            <h1>{herramientas}</h1>
+            <h1>{productos}</h1>
         </div>
     ) 
 }
@@ -21,17 +21,15 @@ const Galeria = () => {
 export const getProductos = () => {
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve(herramientas)
+            resolve(productos)
         }, 500)
     })
 }
 
-
-
-export const getProductosById = (productosId) => {
+export const getProductosByCategory = (productosId) => {
     return new Promise ((resolve)=>{
         setTimeout(()=>{
-            resolve(herramientas.find(prod=> prod.id === productosId))
+            resolve(productos.find(prod=> prod.id === productosId))
         },500 )
     })
 }

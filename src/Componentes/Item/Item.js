@@ -1,27 +1,29 @@
-const Item = ({id,nombre,imagen,precio,stock}) =>{
+import { Link } from "react-router-dom"
+import ItemCount from "../ItemCount/ItemCount"
+
+const Item = ({id,nombre,imagen,precio,stock,descripcion,categoria}) =>{
     return(
-        <article className="CardItem">
-            <header className="Header">
-                <h2 className="ItemHeader">
-                    {nombre}
-                </h2>
-            </header>
-            <picture>
-                <img src={imagen} alt={nombre} className="itemImagen"/>
-            </picture>
-            <section>
-                <p className="infoStock">
-                    Stock Disponible: {stock}
-                </p>
-                <p className="infoPrecio">
-                    Precio: ${precio}
-                </p>
-            </section>
-            <footer className="itemFooter">
-                <button className="itemDetalle"> Ver detalle</button>
-            </footer>
-        </article>
+        <div className="card">
+        <div className="card-header">
+          {nombre}
+        </div>
+        <img src={imagen} alt={nombre} className="card-img-top" />
+        <ul className="list-group list-group-flush">
+          <li className="list-group-item">Stock Disponible: {stock}</li>
+          <li className="list-group-item">Precio: ${precio}</li>
+          <li className="list-group-item">{descripcion}</li>
+          <li className="list-group-item">Categoria: {categoria}</li>
+        </ul>
+        <div className="card-body">
+        </div>
+        <footer>
+        <Link to={`/item/${id}`} className="Option">Ver Detalle</Link>
+        </footer>
+      </div>
     )
 }
 
 export default Item
+
+
+{/* <ItemCount initial={1} stock={stock} onAdd={(cantidad)=> console.log('Cantidad agregada', cantidad)}/></footer> */}

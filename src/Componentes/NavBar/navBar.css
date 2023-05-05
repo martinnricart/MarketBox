@@ -1,0 +1,35 @@
+.container-fluid{
+    position: relative;
+     bottom: 11px;
+     font-family: 'Caveat', cursive;
+     font-size: x-large;
+  }
+  
+  .nav-item{
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: x-large;
+  }
+
+  .nav-link:hover{
+    color:rgb(253, 215, 0) ;
+  }
+  
+  .navbar-brand{
+    color: rgb(253, 215, 0);
+    font-family: 'Caveat', cursive;
+    font-size: x-large;
+  }
+  
+  .navbar-brand:hover{
+    color: rgb(253, 215, 0); ;
+    
+  }
+  
+  .navbar-nav{
+    position: relative;
+    left: 490px;
+    font-family: 'Caveat', cursive;
+    font-size: x-large;
+    
+  }

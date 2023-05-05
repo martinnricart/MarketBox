@@ -1,0 +1,434 @@
+[
+  {
+    "id": 1,
+    "nombre": "Taladro Fierce",
+    "precio": 13999,
+    "categoria": "Herramientas",
+    "imagen": "../assets/herramientas/taladrofierce.png",
+    "stock": 10,
+    "descripcion": "Taladro Percutor Eléctrico Fierce Ftp601p 600 W 3000 Rpm"
+  },
+  {
+    "id": 2,
+    "nombre": "Taladro Philco",
+    "precio": 11999,
+    "categoria": "Herramientas",
+    "imagen": "../assets/herramientas/taladrophilco.png",
+    "stock": 10,
+    "descripcion": "Taladro percutor atornillador eléctrico de 13mm Philco TP711 710W + accesorios 220V"
+  },
+  {
+    "id": 3,
+    "nombre": "Kit Destornillador",
+    "precio": 5700,
+    "categoria": "Herramientas",
+    "imagen": "../assets/herramientas/kitdestornillador.png",
+    "stock": 15,
+    "descripcion": "Juego Set Kit Destornilladores Celulares, Tablet, Electronica"
+  },
+  {
+    "id": 4,
+    "nombre": "Set de Herramientas Manuales",
+    "precio": 29200,
+    "categoria": "Herramientas",
+    "imagen": "../assets/herramientas/setherramientas.png",
+    "stock": 20,
+    "descripcion": "Juego Set Herramientas Manuales Philco Sh78 74 Piezas Maleta"
+  },
+  {
+    "id": 5,
+    "nombre": "Sierra Caladora",
+    "precio": 17999,
+    "categoria": "Herramientas",
+    "imagen": "../assets/herramientas/sierraelectrica.png",
+    "stock": 5,
+    "descripcion": "Sierra Caladora Eléctrica 800w Total Tools"
+  },
+  {
+    "id": 6,
+    "nombre": "Sierra Caladora Profesional",
+    "precio": 25190,
+    "categoria": "Herramientas",
+    "imagen": "../assets/herramientas/sierraprofesional.png",
+    "stock": 10,
+    "descripcion": "Sierra caladora profesional Bosch Professional GST 650 450W 220V hojas"
+  },
+  {
+    "id": 7,
+    "nombre": "Hidrolavadora",
+    "precio": 29999,
+    "categoria": "Herramientas",
+    "imagen": "../assets/herramientas/hidrolavadora.png",
+    "stock": 35,
+    "descripcion": "Hidrolavadora Alta Presión Nexus 1400w 110/b Autostop"
+  },
+  {
+    "id": 8,
+    "nombre": "Amoladora angular",
+    "precio": 11200,
+    "categoria": "Herramientas",
+    "imagen": "../assets/herramientas/amoladora.png",
+    "stock": 8,
+    "descripcion": "Amoladora angular Black+Decker G720N naranja 820 W 220 V Llaves"
+  },
+  {
+    "id": 9,
+    "nombre": "Drone Kassel",
+    "precio": 63999,
+    "categoria": "Electronica",
+    "imagen": "../assets/electronica/drone.png",
+    "stock": 15,
+    "descripcion": "Drone Kassel Negro Con Control Remoto"
+  },
+  {
+    "id": 10,
+    "nombre": "Parlante JBL",
+    "precio": 19999,
+    "categoria": "Electronica",
+    "imagen": "../assets/electronica/parlantejbl.png",
+    "stock": 100,
+    "descripcion": "Parlant JBL Negro Waterproof"
+  },
+  {
+    "id": 11,
+    "nombre": "Parlante Philco",
+    "precio": 13999,
+    "categoria": "Electronica",
+    "imagen": "../assets/electronica/parlantephilco.png",
+    "stock": 50,
+    "descripcion": "Parlante Philco De Pie Bluetooth 220V"
+  },
+  {
+    "id": 12,
+    "nombre": "Parlante Thonet",
+    "precio": 149899,
+    "categoria": "Electronica",
+    "imagen": "../assets/electronica/parlantethonet.png",
+    "stock": 15,
+    "descripcion": "Parlante Thonet Blanco Bluetooth 100V/220V"
+  },
+  {
+    "id": 13,
+    "nombre": "Pantalla Gadnic",
+    "precio": 69899,
+    "categoria": "",
+    "imagen": "../assets/electronica/proyectorgadnic.png",
+    "stock": 10,
+    "descripcion": "Pantalla Gadnic Con Proyector RCT Manual 4:3 Retractil 160°"
+  },
+  {
+    "id": 14,
+    "nombre": "Televisor Noblex Smart TV",
+    "precio": 78999,
+    "categoria": "Electronica",
+    "imagen": "../assets/electronica/tvnoblex.png",
+    "stock": 30,
+    "descripcion": "Televisor Noblex Negro 43 Pulgadas Con Android TV"
+  },
+  {
+    "id":15,
+    "nombre": "Televisor Quint Smart TV",
+    "precio": 49999,
+    "categoria": "Electronica",
+    "imagen": "../assets/electronica/tvquint.png",
+    "stock": 30,
+    "descripcion": "Televisor Quint Gris 32 Pulgadas Con Android TV"
+  },
+  {
+    "id": 16,
+    "nombre": "Televisor Samsung Smart TV",
+    "precio": 72999,
+    "categoria": "Electronica",
+    "imagen": "../assets/electronica/tvsamsung.png",
+    "stock": 30,
+    "descripcion": "Televisor Samsung Negro 36 Pulgadas Con Android TV"
+  },
+  {
+    "id": 17,
+    "nombre": "Aire Acondicionado BGH",
+    "precio": 120000,
+    "categoria": "Electrodomesticos",
+    "imagen": "../assets/electrodomesticos/airebgh.png",
+    "stock": 20,
+    "descripcion": "Aire Acondicionado Split Frio-Calor BGH Silent Air Blanco"
+  },
+  {
+    "id": 18,
+    "nombre": "Aire Acondicionado Philco",
+    "precio": 160000,
+    "categoria": "Electrodomesticos",
+    "imagen": "../assets/electrodomesticos/airephilco.png",
+    "stock": 15,
+    "descripcion": "Aire Acondicionado Inverter EcoPlus Philco Blanco"
+  },
+  {
+    "id": 19,
+    "nombre": "Heladera Philco",
+    "precio": 150000,
+    "categoria": "Electrodomesticos",
+    "imagen": "../assets/electrodomesticos/heladeraphilco.png",
+    "stock": 8,
+    "descripcion": "Heladera No Frost Philco Plateada 555L 220V"
+  },
+  {
+    "id": 20,
+    "nombre": "Heladera Samsung",
+    "precio": 300000,
+    "categoria": "Electrodomesticos",
+    "imagen": "../assets/electrodomesticos/heladerasamsung.png",
+    "stock": 5,
+    "descripcion": "Heladera Inverter No frost Samsung 299L 220V"
+  },
+  {
+    "id": 21,
+    "nombre": "Cocina Horno Florencia",
+    "precio": 110000,
+    "categoria": "",
+    "imagen": "../assets/electrodomesticos/hornoflorencia.png",
+    "stock": 15,
+    "descripcion": "Cocina Florencia Rect Gas Natural 4 Hornallas Negra Puerta Con Visor 65L"
+  },
+  {
+    "id": 22,
+    "nombre": "Cocina Horno Whirlpool",
+    "precio": 230000,
+    "categoria": "Electrodomesticos",
+    "imagen": "../assets/electrodomesticos/hornowhirlpool.png",
+    "stock": 9,
+    "descripcion": "Cocina Whirlpool Gas Natural 4 Hornallas Puerta Con Visor 220V 71.1L"
+  },
+  {
+    "id": 23,
+    "nombre": "Lavarropas Drean",
+    "precio": 188000,
+    "categoria": "Electrodomesticos",
+    "imagen": "../assets/electrodomesticos/lavarropasdrean.png",
+    "stock": 25,
+    "descripcion": "Lavarropas Automático Drean Next ECO blanco 8kg 220 V"
+  },
+  {
+    "id": 24,
+    "nombre": "Lavarropas Samsung",
+    "precio": 256000,
+    "categoria": "Electrodomesticos",
+    "imagen": "../assets/electrodomesticos/lavarropassamsung.png",
+    "stock": 11,
+    "descripcion": "Lavarropas Automático Samsung Inverter 7kg 220 V"
+  },
+  {
+    "id": 25,
+    "nombre": "Bordeadora Philco Verde",
+    "precio": 10800,
+    "categoria": "Jardineria",
+    "imagen": "../assets/jardineria/bordeadora.png",
+    "stock": 15,
+    "descripcion": "Philco MJPBO116 color verde 230V-240V"
+  },
+  {
+    "id": 26,
+    "nombre": "Combo de Jardineria Rojo",
+    "precio": 15600,
+    "categoria": "Jardineria",
+    "imagen": "../assets/jardineria/combojardineria.png",
+    "stock": 45,
+    "descripcion": "Combo de Jardineria Con 2 Palas, Guantes y Rastrillo"
+  },
+  {
+    "id": 27,
+    "nombre": "Kit De Palas",
+    "precio": 20999,
+    "categoria": "Jardineria",
+    "imagen": "../assets/jardineria/kitpalas.png",
+    "stock": 30,
+    "descripcion": "Palas Planas, Cuadradas y Rastrillos Zeex"
+  },
+  {
+    "id": 28,
+    "nombre": "Manguera AFA",
+    "precio": 13999,
+    "categoria": "Jardineria",
+    "imagen": "../assets/jardineria/manguera.png",
+    "stock": 50,
+    "descripcion": "Manguera Verde 2 Metros AFA"
+  },
+  {
+    "id": 29,
+    "nombre": "Motosierra GardenPlus GP",
+    "precio": 27999,
+    "categoria": "Jardineria",
+    "imagen": "../assets/jardineria/motosierra.png",
+    "stock": 5,
+    "descripcion": "Motosierra A Nafta Lüsqtoff Garden Plus 52cc 2.5hp"
+  },
+  {
+    "id": 30,
+    "nombre": "Kit de Sillas y Mesa RCT",
+    "precio": 13999,
+    "categoria": "Jardineria",
+    "imagen": "../assets/jardineria/sillamesa.png",
+    "stock": 10,
+    "descripcion": "2 Sillas De Descanso Color Marron Con Mesa De Vidrio"
+  },
+  {
+    "id": 31,
+    "nombre": "Sopladora Daewoo Multiuso",
+    "precio": 34999,
+    "categoria": "Jardineria",
+    "imagen": "../assets/jardineria/sopladora.png",
+    "stock": 5,
+    "descripcion": "Sopladora-Aspiradora-Trituradora Daewoo Eléctrica 2500W 220V"
+  },
+  {
+    "id": 32,
+    "nombre": "Sopladora Electrica Total Tools",
+    "precio": 11999,
+    "categoria": "Jardineria",
+    "imagen": "../assets/jardineria/sopladortotal.png",
+    "stock": 15,
+    "descripcion": "Sopladora-Aspiradora Total Tools Eléctrica 400W blue 220V - 240V"
+  },
+  {
+    "id": 33,
+    "nombre": "Kit de Amortiguadores ",
+    "precio": 37600,
+    "categoria": "Vehiculos",
+    "imagen": "../assets/vehiculos/amortiguador.png",
+    "stock": 10,
+    "descripcion": "Kit 4 Amortiguador Corven P/ Chevrolet Corsa Classic"
+  },
+  {
+    "id": 34,
+    "nombre": "Compresor Eléctrico Portátil Total Tools",
+    "precio": 10999,
+    "categoria": "Vehiculos",
+    "imagen": "../assets/vehiculos/compresortotal.png",
+    "stock": 20,
+    "descripcion": "Compresor De Aire Mini A Batería, Portátil 12V turquesa/gris"
+  },
+  {
+    "id": 35,
+    "nombre": "Estereo Mercury MS-10BT",
+    "precio": 10900,
+    "categoria": "Vehiculos",
+    "imagen": "../assets/vehiculos/estereo.png",
+    "stock": 25,
+    "descripcion": "Estéreo para auto con USB, bluetooth y lector de tarjeta SD AM/FM"
+  },
+  {
+    "id": 36,
+    "nombre": "Kit Tren Delantero",
+    "precio": 60000,
+    "categoria": "Vehiculos",
+    "imagen": "../assets/vehiculos/kitdelantero.png",
+    "stock": 8,
+    "descripcion": "Kit Tren Delantero Completo Peugeot 206 - 207"
+  },
+  {
+    "id": 37,
+    "nombre": "Kit De Motoquero",
+    "precio": 20000,
+    "categoria": "Vehiculos",
+    "imagen": "../assets/vehiculos/kitmoto.png",
+    "stock": 60,
+    "descripcion": "Kit de Guantes, Casco Y Cuellera Negros Para Moto "
+  },
+  {
+    "id": 38,
+    "nombre": "Neumaticos Firestone",
+    "precio": 42000,
+    "categoria": "Vehiculos",
+    "imagen": "../assets/vehiculos/neumaticofirestone.png",
+    "stock": 40,
+    "descripcion": "Neumático Firestone F-Series F-600 P 175/65R14 82 T"
+  },
+  {
+    "id": 39,
+    "nombre": "Neumaticos Yeada",
+    "precio": 39000,
+    "categoria": "Vehiculos",
+    "imagen": "../assets/vehiculos/neumaticoyeada.png",
+    "stock": 15,
+    "descripcion": "Neumaticos Yeada Yda-216 175/65r14 82h"
+  },
+  {
+    "id": 40,
+    "nombre": "Optica Para Chevrolet Classic",
+    "precio": 120000,
+    "categoria": "Vehiculos",
+    "imagen": "../assets/vehiculos/optica.png",
+    "stock": 8,
+    "descripcion": "Juego Par (x2) Optica Chevrolet Classic 2011 2012 2013 2014"
+  },
+  {
+    "id": 41,
+    "nombre": "Remera Adidas",
+    "precio": 14999,
+    "categoria": "Vestimenta",
+    "imagen": "../assets/vestimenta/remadidas.png",
+    "stock": 30,
+    "descripcion": "Remera Adidas Marron Talle XL L M S"
+  },
+  {
+    "id": 42,
+    "nombre": "Remera Adidas",
+    "precio": 13999,
+    "categoria": "Vestimenta",
+    "imagen": "../assets/vestimenta/remeraadidas.png",
+    "stock": 30,
+    "descripcion": "Remera Adidas Blanca Talle XL L M S"
+  },
+  {
+    "id": 43,
+    "nombre": "Remera Nike",
+    "precio": 16999,
+    "categoria": "Vestimenta",
+    "imagen": "../assets/vestimenta/remeranike.png",
+    "stock": 30,
+    "descripcion": "Remera Nike Negra Talle XL L M S"
+  },
+  {
+    "id": 44,
+    "nombre": "Remera Nike",
+    "precio": 10999,
+    "categoria": "Vestimenta",
+    "imagen": "../assets/vestimenta/remerasport.png",
+    "stock": 30,
+    "descripcion": "Remera Nike Sport Negra Talle XL L M S"
+  },
+  {
+    "id": 45,
+    "nombre": "Zapatillas Adidas",
+    "precio": 23999,
+    "categoria": "Vestimenta",
+    "imagen": "../assets/vestimenta/zapatillasadidas.png",
+    "stock": 15,
+    "descripcion": "Zapatillas Adidas Blancas Forum Low 40/41/42/43/44"
+  },
+  {
+    "id": 46,
+    "nombre": "Zapatillas Jordan A4",
+    "precio": 33999,
+    "categoria": "Vestimenta",
+    "imagen": "../assets/vestimenta/zapatillasjordan.png",
+    "stock": 15,
+    "descripcion": "Zapatillas Jordan A4 Black Cat 40/41/42/43/44"
+  },
+  {
+    "id": 47,
+    "nombre": "Zapatillas Nike AirMax 97",
+    "precio": 26999,
+    "categoria": "Vestimenta",
+    "imagen": "../assets/vestimenta/zapatillasnike.png",
+    "stock": 15,
+    "descripcion": "Zapatilals Nike AirMax 97 Negras Camufladas 40/41/42/43/44"
+  },
+  {
+    "id": 48,
+    "nombre": "Zapatillas Puma",
+    "precio": 21999,
+    "categoria": "Vestimenta",
+    "imagen": "../assets/vestimenta/zapatillaspuma.png",
+    "stock": 15,
+    "descripcion": "Zapatillas Puma Blancas Con Dorado 40/41/42/43/44 "
+  }
+]

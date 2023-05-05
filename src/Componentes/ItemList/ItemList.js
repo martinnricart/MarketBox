@@ -1,9 +1,9 @@
 import './ItemList.css'
 import Item from '../Item/Item'
 
-const ItemList = ({productos }) => {
+const ItemList = ({ productos }) => {
     return(
-        <div className='ListGroup'>
+        <div className='CardItem'>
            {productos.map(prod => <Item key={prod.id}{...prod}/>)} 
         </div>
     )

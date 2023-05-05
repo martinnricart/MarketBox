@@ -1,43 +1,46 @@
 import CartWidget from "../CartWidget/CartWidget"
 import logo from './assets/logo.png'
+import { NavLink, Link } from 'react-router-dom'
+import './navBar.css'
+
 const NavBar = () => {
-    return(
-        <nav>
-<nav class="navbar navbar-expand-lg">
-  <div class="container-fluid" style={{backgroundColor: 'rgb(24, 24, 24)'}}>
-    <img src={logo} alt="logo"/> 
-    <a class="navbar-brand" href="."  >MarketBox</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href=".">Herramientas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=".">Electronica</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=".">Vestimenta</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=".">Vehiculos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=".">Electrodomesticos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=".">Jardineria</a>
-        </li>
-      </ul>
-      <div class="carrito"><CartWidget/>
-      </div>
+  return(
+      <nav>
+<nav className="navbar navbar-expand-lg">
+<div className="container-fluid" style={{backgroundColor:'rgb(24,24,24'}}>
+  <img src={logo} alt="logo"/> 
+  <NavLink to={`/`} className="navbar-brand"> MarketBox</NavLink>
+  <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
+  <div className="collapse navbar-collapse" id="navbarNav">
+    <ul className="navbar-nav">
+      <li className="nav-item">
+        <NavLink to={`/category/herramientas`} className="nav-link"> Herramientas</NavLink>
+      </li>
+      <li className="nav-item">
+      <NavLink to={`/category/electronica`} className="nav-link"> Electronica</NavLink>
+      </li>
+      <li className="nav-item">
+      <NavLink to={`/category/jardineria`} className="nav-link"> Jardineria</NavLink>
+      </li>
+      <li className="nav-item">
+      <NavLink to={`/category/electrodomesticos`} className="nav-link"> Electrodomesticos</NavLink>
+      </li>
+      <li className="nav-item">
+      <NavLink to={`/category/vestimenta`} className="nav-link"> Vestimenta</NavLink>
+      </li>
+      <li clasName="nav-item">
+      <NavLink to={`/category/vehiculos`} className="nav-link"> Vehiculos</NavLink>
+      </li>
+    </ul>
+    <div className="carrito"><CartWidget/>
     </div>
   </div>
+</div>
 </nav>
-        </nav>
-    )
+      </nav>
+  )
 }
 
 export default NavBar
