@@ -16,22 +16,22 @@ const NavBar = () => {
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item">
-        <NavLink to={`/category/herramientas`} className="nav-link"> Herramientas</NavLink>
+        <NavLink to={`/category/Herramientas`} className="nav-link"> Herramientas</NavLink>
       </li>
       <li className="nav-item">
-      <NavLink to={`/category/electronica`} className="nav-link"> Electronica</NavLink>
+      <NavLink to={`/category/Electronica`} className="nav-link"> Electronica</NavLink>
       </li>
       <li className="nav-item">
-      <NavLink to={`/category/jardineria`} className="nav-link"> Jardineria</NavLink>
+      <NavLink to={`/category/Jardineria`} className="nav-link"> Jardineria</NavLink>
       </li>
       <li className="nav-item">
-      <NavLink to={`/category/electrodomesticos`} className="nav-link"> Electrodomesticos</NavLink>
+      <NavLink to={`/category/Electrodomesticos`} className="nav-link"> Electrodomesticos</NavLink>
       </li>
       <li className="nav-item">
-      <NavLink to={`/category/vestimenta`} className="nav-link"> Vestimenta</NavLink>
+      <NavLink to={`/category/Vestimenta`} className="nav-link"> Vestimenta</NavLink>
       </li>
       <li clasName="nav-item">
-      <NavLink to={`/category/vehiculos`} className="nav-link"> Vehiculos</NavLink>
+      <NavLink to={`/category/Vehiculos`} className="nav-link"> Vehiculos</NavLink>
       </li>
     </ul>
     <div className="carrito"><CartWidget/>
