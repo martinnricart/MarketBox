@@ -17,7 +17,7 @@ const Item = ({id,nombre,imagen,precio,stock,descripcion,categoria}) =>{
         <div className="card-body">
         </div>
         <footer>
-        <Link to={`/item/${id}`} className="Option">Ver Detalle</Link>
+        <Link to={`/item/${id}`} button type="button" className="btn btn-warning">Ver Detalle</Link>
         </footer>
       </div>
     )

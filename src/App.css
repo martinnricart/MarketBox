@@ -1,8 +1,7 @@
 .App {
   text-align: center;
   font-family: 'Caveat', cursive;
-   font-size: x-large;
-   
+   font-size: x-large; 
 }
 
 .container-fluid{
@@ -18,18 +17,25 @@
   font-size: x-large;
 }
 
-.nav-link:hover{
-  color:rgb(253, 215, 0) ;
+
+.nav-link{
+  color:white !important;
 }
 
+.nav-link:hover{
+  color:rgb(253, 215, 0) !important;
+}
+
+
+
 .navbar-brand{
-  color: rgb(253, 215, 0);
-  font-family: 'Caveat', cursive;
-  font-size: x-large;
+  color: rgb(253, 215, 0) !important;
+  font-family: 'Caveat', cursive !important;
+  font-size: x-large !important;
 }
 
 .navbar-brand:hover{
-  color: rgb(253, 215, 0); ;
+  color: rgb(255, 227, 71) !important;
   
 }
 

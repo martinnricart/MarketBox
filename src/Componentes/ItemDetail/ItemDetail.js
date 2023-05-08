@@ -1,19 +1,12 @@
-import './ItemDetail.css'
-import ItemCount from '../ItemCount/ItemCount'
+import "./ItemDetail.css";
+import ItemCount from "../ItemCount/ItemCount";
 
-const ItemDetail = ({id, nombre, imagen, categoria, descripcion, precio, stock}) =>{
-        return(
-            <article className="CardItem">
-                <header className="Header">
-                    <h2 className="ItemHeader">
-                        {nombre}
-                    </h2>
-                </header>
-                <picture>
-                    <img src={imagen} alt={nombre} className="itemImagen"/>
-                </picture>
-                <section>
-                    <p className="infoStock">
+const ItemDetail = ({id,nombre,imagen,categoria,descripcion,precio,stock,}) => {
+  return (
+    <div className="card">
+      <img src={imagen} className="card-img-top" />
+      <div class="card-body">
+      <p className="infoStock">
                         Stock Disponible: {stock}
                     </p>
                     <p className="infoPrecio">
@@ -25,12 +18,11 @@ const ItemDetail = ({id, nombre, imagen, categoria, descripcion, precio, stock})
                     <p className="infoDescripcion">
                         {descripcion}
                     </p>
-                </section>
-                <footer className="itemFooter">
-                    <ItemCount initial={1} stock={stock} onAdd={(cantidad)=> console.log('Cantidad agregada', cantidad)}/>
-                </footer>
-            </article>
-        )
-    }
+        <p className="card-text">
+        </p>
+      </div>
+    </div>
+  );
+};
 
-export default ItemDetail
+export default ItemDetail;
