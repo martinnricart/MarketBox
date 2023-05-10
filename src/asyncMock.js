@@ -18,6 +18,8 @@ const Galeria = () => {
     ) 
 }
 
+
+
 export const getProductos = () => {
     return new Promise((resolve) => {
         setTimeout(() => {
@@ -36,8 +38,8 @@ export const getProductosByCategory = (productosCategory) => {
 
 export const getProductosById = (itemId) => {
     return new Promise ((resolve)=>{
-        setTimeout(()=>{
-            resolve(productos.filter(prod=> prod.id === itemId))
-        },500 )
+    setTimeout(()=>{
+    resolve(productos.find(prod=> prod.id === parseInt(itemId)))
+    },500 )
     })
-}
+    }

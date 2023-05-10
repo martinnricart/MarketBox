@@ -5,7 +5,7 @@ const ItemDetail = ({id,nombre,imagen,categoria,descripcion,precio,stock,}) => {
   return (
     <div className="card">
       <img src={imagen} className="card-img-top" />
-      <div class="card-body">
+      <div className="card-body">
       <p className="infoStock">
                         Stock Disponible: {stock}
                     </p>
@@ -21,6 +21,7 @@ const ItemDetail = ({id,nombre,imagen,categoria,descripcion,precio,stock,}) => {
         <p className="card-text">
         </p>
       </div>
+      <ItemCount initial={1} stock={stock} onAdd={(cantidad) =>console.log('Cantidad agregada: ',cantidad)}/>
     </div>
   );
 };
