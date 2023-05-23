@@ -24,15 +24,15 @@ const ItemDetail = ({id,nombre,imagen,categoria,descripcion,precio,stock,}) => {
     <div className="card">
       <img src={imagen} className="card-img-top" alt="img"/>
       <div className="card-body">
-        <p className="infoStock">Stock Disponible: {stock}</p>
-        <p className="infoPrecio">Precio: ${precio}</p>
-        <p className="infoCategoria">Categoria: {categoria}</p>
+        <p className="infoStock"> <span class="subrayado">Stock Disponible:</span> {stock}</p>
+        <p className="infoPrecio"><span class="subrayado">Precio:</span>  ${precio}</p>
+        <p className="infoCategoria"><span class="subrayado">Categoria:</span>  {categoria}</p>
         <p className="infoDescripcion">{descripcion}</p>
       </div>
       <footer className="ItemFooter">
         {
           quantityAdded > 0 ? (
-              <Link to ='/cart' className='terminarCompra'>Terminar Compra</Link>
+              <Link to ='/cart' className='terminarCompra'>Ir al carrito </Link>
           ) : (
               <ItemCount initial={1} stock={stock} onAdd={handleOnAdd}/>
       )

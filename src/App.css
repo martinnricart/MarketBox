@@ -2,6 +2,7 @@
   text-align: center;
   font-family: 'Caveat', cursive;
    font-size: x-large; 
+  background-color:rgb(248, 244, 219) ;
 }
 
 .container-fluid{
@@ -9,6 +10,7 @@
    bottom: 11px;
    font-family: 'Caveat', cursive;
    font-size: x-large;
+   
 }
 
 .nav-item{
@@ -47,15 +49,13 @@
   
 }
 
-.bienvenida{
-  text-shadow: 2px 2px rgb(253, 215, 0);
-}
 
 .card{
   width: 18rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 
 }
 

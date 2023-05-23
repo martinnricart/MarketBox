@@ -1,8 +1,18 @@
-.carrito{
-    position: absolute;
-    right: 0;
-  }
-  
-  .cantidadCarrito{
+.carrito {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  top: 5px;
+}
+
+  .CartWidget{
     color: rgb(255, 255, 255);
+    text-decoration: none;
+    left: 50cm;
+  }
+
+
+  .CartWidget:hover{
+    color: rgb(253, 228, 0);
+    text-decoration: none;
   }

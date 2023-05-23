@@ -13,3 +13,23 @@
     color: rgb(59, 59, 59);
     background-color:rgb(250, 225, 85) ;
 }
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; 
+}
+
+
+
+.subrayado{
+  text-decoration: underline;
+}
+
+
+
+
+.infoDescripcion{
+  font-weight: 600;
+}

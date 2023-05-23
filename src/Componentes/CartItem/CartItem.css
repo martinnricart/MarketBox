@@ -1,0 +1,14 @@
+.resumenCarrito{
+max-width: 540px
+}
+
+.col-md-8{
+    background-color: rgb(252, 239, 181);
+    border: 1px solid #000000;
+}
+
+.col-md-4{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+}
+

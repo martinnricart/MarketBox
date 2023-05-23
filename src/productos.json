@@ -94,7 +94,7 @@
     "nombre": "Parlante Philco",
     "precio": 13999,
     "categoria": "Electronica",
-    "imagen": "../assets/electronica/parlantephilco.png",
+    "imagen": "../assets/electronica/parlantephilco.jpg",
     "stock": 50,
     "descripcion": "Parlante Philco De Pie Bluetooth 220V"
   },

@@ -1,31 +1,35 @@
+import "./CartItem.css";
 
-
-
-const CartItem = ({id,nombre,imagen,precio,stock,descripcion,categoria}) =>{
+const CartItem = ({id,nombre,imagen,precio,stock,descripcion,categoria,quantity,}) => {
   return (
     <div
       style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        padding: '2rem',
-        width: '100%',
+        overflow: "auto",
+        float: " inline-start",
+        width: "50%",
+        boxSizing: "border-box",
+        padding: "20px",
       }}
     >
-        <div className="card">
-        <div className="card-header">
-          {nombre}
-        </div>
-        <img src={imagen} alt={nombre} className="card-img-top" />
-        <ul className="list-group list-group-flush">
-          <li className="list-group-item">Precio: ${precio}</li>
-          <li className="list-group-item"> Descripcion:{descripcion}</li>
-        </ul>
-        <div className="card-body">
-        </div>
+      <div class="card mb-3" className="resumenCarrito">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src={imagen} class="card-img" alt={nombre} />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><span className="subrayado">{nombre}</span></h5>
+              <p class="card-text">{descripcion}</p>
+              <p class="card-text">
+                <small class="text-muted">${precio}</small>
+              </p>
+            </div>
+            <p>Cantidad: {quantity}</p>
+          </div>
         </div>
       </div>
-    )
-}
+    </div>
+  );
+};
 
-export default CartItem
+export default CartItem;

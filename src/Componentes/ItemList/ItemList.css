@@ -1,5 +1,5 @@
-.CardItem{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
