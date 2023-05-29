@@ -37,10 +37,11 @@ const ItemListContainer = ({ bienvenida }) =>{
         return(
             <div>
                 {bienvenida}
-                 {productos.map(p=> <ItemList key={productos.id}productos={productos}/>)}
+                 {<ItemList productos={productos}/>}
              </div>
         )
 }
+
 
 
 export default ItemListContainer
