@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { getProductosById} from '../../asyncMock'
 import ItemDetail from '../ItemDetail/ItemDetail'
 import { useParams } from 'react-router-dom'
-import ItemCount from '../ItemCount/ItemCount'
+
 
 const ItemDetailContainer = () => {
     const [productos, setProductos] = useState({})

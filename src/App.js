@@ -1,19 +1,30 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import "./App.css";
 import NavBar from "./Componentes/NavBar/navBar";
 import ItemListContainer from "./Componentes/itemListContainer/ItemListContainer";
 import ItemDetailContainer from "./Componentes/ItemDetailContainer/ItemDetailContainer";
-import ItemCount from "./Componentes/ItemCount/ItemCount";
-import Item from "./Componentes/Item/Item";
 import { CartProvider } from "./context/cartContext";
 import Cart from "./Componentes/Cart/Cart";
+import { useEffect, useState } from "react";
+import { getCollection } from "./utils/getFirestore";
+
 
 function App() {
+   const [items, setItems] = useState()
+
+   useEffect( ()=> {
+    getCollection("items").then((result)=>{
+      setItems(result);
+    });
+  },[]);
+
+  console.log(items)
+   
   return (
     <div className="App">
       <BrowserRouter>
-        <CartProvider>
-          <NavBar />
+        <CartProvider >
+          <NavBar  />
           <p></p>
           <Routes>
             <Route path="/" element={<ItemListContainer />} />
@@ -29,3 +40,18 @@ function App() {
 }
 
 export default App;
+
+
+
+
+//   useEffect(() =>{
+//     const db = getFirestore(); //Conexion hacia la base de datos
+  
+//     const categoryRef = doc (db, "items","UJ7oMnctEtXYBkBovpKC"); // Doc nos conecta a la collecion y nos trae el item con el id que se paso por parametro
+//     getDoc(categoryRef).then((snapshot)=>{ // se consulta a la base de datos la coleccion y el documento (item)
+//       if(snapshot.exists()){
+//         setItems({id: snapshot.id, ...snapshot.data() });
+//       }
+//     });
+//   }, []);
+//   console.log(items);

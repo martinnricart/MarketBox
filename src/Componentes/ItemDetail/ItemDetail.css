@@ -2,14 +2,15 @@
     width: 18rem;
 }
 
-.terminarCompra{
+.botonIrCarrito{
   border: 2px solid rgb(0, 0, 0);
   background-color:rgb(253, 215, 0) ;
   color: black;
   text-decoration: none;
+  margin: 0 7px;
 }
 
-.terminarCompra:hover{
+.botonIrCarrito:hover{
     color: rgb(59, 59, 59);
     background-color:rgb(250, 225, 85) ;
 }
@@ -21,15 +22,24 @@
   margin: 0 auto; 
 }
 
-
-
 .subrayado{
   text-decoration: underline;
 }
 
-
-
-
 .infoDescripcion{
   font-weight: 600;
+}
+
+
+.botonTienda{
+  border: 2px solid rgb(0, 0, 0);
+  background-color:rgb(253, 215, 0) ;
+  color: black;
+  text-decoration: none;
+  margin: 0 6px;
+}
+
+.botonTienda:hover{
+  color: rgb(59,59,59);
+  background-color:rgb(250, 225, 85) ;
 }
