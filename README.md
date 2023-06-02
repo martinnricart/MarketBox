@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+#  Martin Ricart - MarketBox  - React JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta es mi pagina estilo eCommerce, inspirado en un estilo de Mercado Libre, hecha con ReactJs.
 
-## Available Scripts
+# Funcionalidades
+Las funcionalidades que tiene mi pagina son:
 
-In the project directory, you can run:
+> **Ver detalle de cada producto:** Cuando ingresas a la pagina, abajo de todo en los productos hay un boton que se llama "Ver Detalle", 
+> **Agregar la cantidad que quieras del producto al carrito:** Una vez en el detalle, podras agregar o restar la cantidad de productos que quieras. Una vez tomes la decision, la podes agregar al carrito y dirigirte hacia el o volver a la tienda.
+> **Ir al carrito:** Una vez que hayas agregado los productos que mas te gustaron, arriba a la derecha hay un logo de un carrito con la cantidad de productos que agregaste. Aprentado ahi, te redirijira a tu carrito de compras, donde podras finalizar tu compra.
+> **Eliminar productos del carrito:** En el carrito, esta la opcion para limpiar el carrito completo o solamente eliminar el producto que no quieras comprar.
+> **Ir al checkout:** Cuando ya te hayas decidido que comprar y que cantidad, vas a pasar al checkout, aprentando en el boton "Checkout", donde tendras que completar con tus datos, los cuales serviran para mandarte un ID de tu orden y asi confirmar tu compra via E-Mail.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Datos Adicionales y Recomendaciones
+> **-Usar la pagina al 100% de zoom para una mejor experiencia.**
+> **-Solo hay 6 productos para mostrar que Firebase funciona correctamente, proximamente agregare todos los productos a mi Firestore. *(En el archivo productos.json podras ver todos los productos que estaran disponibles en la pagina).***
+> **Este proyecto contiene**:
+● NavBar
+● CartWidget
+● ItemListContainer
+● ItemList
+● ItemDetailContainer
+● ItemDetail
+	-○ ItemQuantitySelector
+	-○ Description
+	-○ AddItemButton
+● Checkout
+● Firebase
+● Firestore
+**
+>**Despues de grabar el gif, solamente actualice las letras de las cards para que quede mas prolijo y darle otro diseño**

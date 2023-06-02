@@ -21,7 +21,7 @@ const CartItem = ({id,nombre,imagen,precio,stock,descripcion,categoria,quantity,
               <h5 class="card-title"><span className="subrayado">{nombre}</span></h5>
               <p class="card-text">{descripcion}</p>
               <p class="card-text">
-                <small class="text-muted">${precio}</small>
+                <small class="text-muted">${precio.toLocaleString()}</small>
               </p>
             </div>
             <p>Cantidad: {quantity}</p>

@@ -1,15 +1,57 @@
+
+
 .eliminarProducto{
     position: absolute;
     margin-top: -150px;
-  margin-right: -150px;
+  margin-left: -350px;
+  background-color: rgb(253, 253, 253);
     
 }
 
 .btnCheckout{
   border: 2px solid rgb(0, 0, 0);
+  background-color:rgb(69, 173, 8) ;
+  color: black;
+  text-decoration: none;
+  margin: 0 7px;
+}
+
+.btnCheckout:hover{
+  border: 2px solid rgb(0, 0, 0);
+  background-color:rgb(126, 224, 70) ;
+  color: black;
+  text-decoration: none;
+  margin: 0 7px;
+}
+
+.btnVolver{
+  border: 2px solid rgb(0, 0, 0);
   background-color:rgb(253, 215, 0) ;
   color: black;
   text-decoration: none;
   margin: 0 7px;
+}
 
+.btnVolver:hover{
+  border: 2px solid rgb(0, 0, 0);
+  background-color:rgb(0, 0, 0) ;
+  color: rgb(255, 208, 0);
+  text-decoration: none;
+  margin: 0 7px;
+}
+
+.limpiarCart{
+  border: 2px solid rgb(0, 0, 0);
+  background-color:rgb(224, 70, 70) ;
+  color: black;
+  text-decoration: none;
+  margin: 0 7px;
+}
+
+.limpiarCart:hover{
+  border: 2px solid rgb(0, 0, 0);
+  background-color:rgb(173, 50, 50) ;
+  color: black;
+  text-decoration: none;
+  margin: 0 7px;
 }

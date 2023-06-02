@@ -1,0 +1,37 @@
+.botonTienda{
+border: 2px solid rgb(0, 0, 0);
+background-color:rgb(255, 230, 0) ;
+color: black;
+text-decoration: none;
+margin: 0 6px;}
+
+.botonTienda:hover{
+    color: rgb(59,59,59);
+    background-color:rgb(250, 225, 85) ;
+  }
+
+.confirmacion{
+  background-color: rgb(113, 223, 113);
+  height: 6vh;
+}
+
+.orden{
+  background-color: rgb(68, 163, 13);
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.gracias{
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 0.3px rgb(255, 238, 0);
+  text-decoration:underline rgb(104, 85, 3);
+}
+
+.checkout{
+  text-decoration: underline;
+}

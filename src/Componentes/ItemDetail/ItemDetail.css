@@ -43,3 +43,10 @@
   color: rgb(59,59,59);
   background-color:rgb(250, 225, 85) ;
 }
+
+.card-img-top{ 
+  width: 45%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+  height: 45%; /* Asegura que la imagen ocupe todo el alto del contenedor */
+  object-fit:contain
+  
+}

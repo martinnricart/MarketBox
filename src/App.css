@@ -1,4 +1,6 @@
+
 .App {
+  height: 103vh;
   text-align: center;
   font-family: 'Caveat', cursive;
   font-size: x-large; 
@@ -8,7 +10,6 @@
   background-size: cover;
   background-attachment: fixed;
 }
-
 
 .container-fluid{
   position: relative;
@@ -22,6 +23,7 @@
   color: white;
   font-family: 'Caveat', cursive;
   font-size: x-large;
+  
 }
 
 
@@ -60,8 +62,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
-
+  font-family: 'Caveat', cursive;
+font-family: 'Geologica', sans-serif;
+font-family: 'Oswald', sans-serif;
 }
 
 .CardItem{

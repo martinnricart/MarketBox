@@ -1,4 +1,35 @@
+
 .card{
     width: 300px;
     height: auto;
 }
+
+
+
+.btnVerDetalle{
+    background-color: #fad400;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    border-radius: 4px;
+    height: 42px;
+}
+
+
+.btnVerDetalle:hover{
+    background-color: #a5a5a5;
+    color: rgb(44, 44, 44);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    border-radius: 4px;
+    height: 42px;
+}
+

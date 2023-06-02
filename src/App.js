@@ -7,6 +7,7 @@ import { CartProvider } from "./context/cartContext";
 import Cart from "./Componentes/Cart/Cart";
 import { useEffect, useState } from "react";
 import { getCollection } from "./utils/getFirestore";
+import Checkout from "./Componentes/Checkout/checkout";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
             <Route path="/category/:categoryId" element={<ItemListContainer />}/>
             <Route path="/item/:itemId" element={<ItemDetailContainer />} />
             <Route path="/cart" element={<Cart/>} />
+            <Route path="/checkout" element={<Checkout />} />
             <Route path="*" element={<h1>Esta pagina no existe</h1>} />
           </Routes>
         </CartProvider>
